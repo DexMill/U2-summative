@@ -1,0 +1,17 @@
+body {
+  background-image: url("https://images.pexels.com/photos/414860/pexels-photo-414860.jpeg?auto=compress&cs=tinysrgb&w=800");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.header {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
