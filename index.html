@@ -3,10 +3,94 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>U2 summitive</title>
+    <title>U2 Summative</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1 class="header">History of technology in ancient Europe</h1>
+    <header>
+      <h1 class="header">History of Technology in Ancient Europe</h1>
+      <nav class="tabs">
+        <button class="tab-button active" data-tab="home">Home</button>
+        <button class="tab-button" data-tab="worldwar1">World War 1</button>
+        <button class="tab-button" data-tab="changesInThinking">
+          Changes in Thinking
+        </button>
+        <button class="tab-button" data-tab="settingTheStageForConflict">
+          Setting the Stage
+        </button>
+        <button class="tab-button" data-tab="middleAges">Middle Ages</button>
+        <button class="tab-button" data-tab="timeline">Timeline</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="tab-content active">
+        <p>
+          This website is my U2 summative project. It is a website that
+          showcases the history of technology in ancient Europe. With the time
+          period ranging from roman times to ww2
+        </p>
+      </section>
+
+      <section id="worldwar1" class="tab-content">
+        <h2>World War 1</h2>
+        <p>
+          For WW1, I will be talking about two topics, Weapons and trench
+          warfare.
+        </p>
+        <h3>Weapons</h3>
+        <p>
+          Becuase of the addition of trench warfare new weapons had to be made.
+          These weapons were made for proficency in trench warfare. Some of
+          these weapons include machine guns, musterd/chemical gas, tanks, As
+          well as towers to fire into the trenches.
+        </p>
+        <h3>Trench Warfare</h3>
+        <p>
+          Trench warfare was a new way of fighting, this imvolved digging
+          trenches at the battle ground to make it harder for you to be hit by
+          your opponenet. There was also a area called no man's land between the
+          trenches which was very dangerous and hard to cross. This was party
+          beacuse people would soak it in water and make it very muddy.
+        </p>
+      </section>
+
+      <section id="changesInThinking" class="tab-content">
+        <h2>Changes in Thinking</h2>
+        <p>I have two topics for changes in thinking the printing</p>
+      </section>
+
+      <section id="settingTheStageForConflict" class="tab-content">
+        <h2>Setting the Stage</h2>
+        <p></p>
+      </section>
+
+      <section id="middleAges" class="tab-content">
+        <h2>Middle Ages</h2>
+        <p></p>
+      </section>
+      <section id="timeline" class="tab-content">
+        <h2>Interactive Timeline</h2>
+        <div class="timeline">
+          <div class="timeline-event" data-event="event1">
+            <div class="event-image">
+              <img src="printing press.jpeg" alt="printing press" />
+            </div>
+            <span>1440 AD</span>
+            <p>Creation of the printing press</p>
+          </div>
+
+          <div class="timeline-event" data-event="event4">
+            <div class="event-image">
+              <img src="WW1.jpeg" alt="World War 1" />
+            </div>
+            <span>1914 AD</span>
+            <p>World War I</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
