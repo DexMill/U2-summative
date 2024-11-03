@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
       event1: {
         title: "Printing Press (1440 AD)",
         description:
-          "The printing press made books widely accessible to the general public. This changed europe forever.",
+          "The printing press made books widely accessible to the general public. This changed Europe forever.",
       },
       event2: {
         title: "World War I (1914 AD)",
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
       event4: {
         title: "Steam Engine (1712 AD)",
         description:
-          "The steam engine was the first machine that used steam to do somthing. This evolved into combustion engines.",
+          "The steam engine was the first machine that used steam to do something. This evolved into combustion engines.",
       },
       event5: {
         title: "Trebuchet (1200 AD)",
@@ -39,10 +39,10 @@ document.addEventListener("DOMContentLoaded", () => {
       event6: {
         title: "World War II (1939 AD)",
         description:
-          "World War II changed warfare in many ways including the introdution of planes. And better tanks. WW2 also had dictator ship which is when somone has complete control over somthing. During WW2 hitler was a dictator.",
+          "World War II changed warfare in many ways including the introduction of planes. And better tanks. WW2 also had dictator ship which is when someone has complete control over something. During WW2 hitler was a dictator.",
       },
       event7: {
-        title: "Appeasement",
+        title: "Appeasement (1938)",
         description:
           "The Appeasment was an attempt to stop a war. By letting Hitler expand.",
       },
