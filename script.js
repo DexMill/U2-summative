@@ -39,14 +39,13 @@ document.addEventListener("DOMContentLoaded", () => {
       event6: {
         title: "World War II (1939 AD)",
         description:
-          "World War II changed warfare in many ways including the introduction of planes. And better tanks. WW2 also had dictator ship which is when someone has complete control over something. During WW2 hitler was a dictator.",
+          "World War II changed warfare in many ways including the introduction of planes. And better tanks. WW2 also had dictatorship which is when someone has complete control over something. During WW2 hitler was a dictator.",
       },
       event7: {
         title: "Appeasement (1938)",
         description:
-          "The Appeasment was an attempt to stop a war. By letting Hitler expand.",
+          "The Appeasement was an attempt to stop a war. By letting Hitler expand.",
       },
-      // Add content for other events...
     };
 
     // Set content
