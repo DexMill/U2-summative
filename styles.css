@@ -89,7 +89,7 @@ section p {
   position: absolute;
   bottom: 20px;
   left: 0;
-  width: 100%;
+  width: 135%;
   height: 4px;
   background-color: #ffffff;
 }
@@ -163,4 +163,39 @@ section p {
 
 .timeline::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.popup-content {
+  position: relative;
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  width: 70%;
+  max-width: 500px;
+  border-radius: 5px;
+  color: #333;
+}
+
+.close-button {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #555;
 }
